@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var secondCustomView: CustomView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.secondCustomView.rightImage = UIImage.init(named: "image3")
     }
 
     override func didReceiveMemoryWarning() {

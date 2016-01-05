@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37F16AA1C3C043400EC3DB6 /* Viewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F16A91C3C043400EC3DB6 /* Viewable.swift */; };
+		E37F16AE1C3C052700EC3DB6 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F16AD1C3C052700EC3DB6 /* CustomView.swift */; };
+		E37F16B01C3C05C900EC3DB6 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37F16AF1C3C05C900EC3DB6 /* CustomView.xib */; };
+		E37F16B21C3C087100EC3DB6 /* NoAutoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F16B11C3C087100EC3DB6 /* NoAutoView.swift */; };
+		E37F16B41C3C088100EC3DB6 /* NoAutoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37F16B31C3C088100EC3DB6 /* NoAutoView.xib */; };
 		E3EE91F01C3BEC6400B19B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE91EF1C3BEC6400B19B59 /* AppDelegate.swift */; };
 		E3EE91F21C3BEC6400B19B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE91F11C3BEC6400B19B59 /* ViewController.swift */; };
 		E3EE91F51C3BEC6400B19B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EE91F31C3BEC6400B19B59 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		E3EE91FA1C3BEC6400B19B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EE91F81C3BEC6400B19B59 /* LaunchScreen.storyboard */; };
 		E3EE92051C3BEC6400B19B59 /* ShrangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE92041C3BEC6400B19B59 /* ShrangTests.swift */; };
 		E3EE92101C3BEC6400B19B59 /* ShrangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE920F1C3BEC6400B19B59 /* ShrangUITests.swift */; };
+		E3EE921F1C3BEDE800B19B59 /* Shrang.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE921E1C3BEDE800B19B59 /* Shrang.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E37F16A91C3C043400EC3DB6 /* Viewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewable.swift; sourceTree = "<group>"; };
+		E37F16AD1C3C052700EC3DB6 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		E37F16AF1C3C05C900EC3DB6 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		E37F16B11C3C087100EC3DB6 /* NoAutoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoAutoView.swift; sourceTree = "<group>"; };
+		E37F16B31C3C088100EC3DB6 /* NoAutoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoAutoView.xib; sourceTree = "<group>"; };
 		E3EE91EC1C3BEC6400B19B59 /* Shrang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shrang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE91EF1C3BEC6400B19B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3EE91F11C3BEC6400B19B59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		E3EE920B1C3BEC6400B19B59 /* ShrangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE920F1C3BEC6400B19B59 /* ShrangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrangUITests.swift; sourceTree = "<group>"; };
 		E3EE92111C3BEC6400B19B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EE921E1C3BEDE800B19B59 /* Shrang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shrang.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E37F16AC1C3C045D00EC3DB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E37F16AD1C3C052700EC3DB6 /* CustomView.swift */,
+				E37F16AF1C3C05C900EC3DB6 /* CustomView.xib */,
+				E37F16B11C3C087100EC3DB6 /* NoAutoView.swift */,
+				E37F16B31C3C088100EC3DB6 /* NoAutoView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E3EE91E31C3BEC6400B19B59 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +120,8 @@
 		E3EE91EE1C3BEC6400B19B59 /* Shrang */ = {
 			isa = PBXGroup;
 			children = (
+				E37F16AC1C3C045D00EC3DB6 /* View */,
+				E3EE921D1C3BEDD700B19B59 /* Shrang */,
 				E3EE91EF1C3BEC6400B19B59 /* AppDelegate.swift */,
 				E3EE91F11C3BEC6400B19B59 /* ViewController.swift */,
 				E3EE91F31C3BEC6400B19B59 /* Main.storyboard */,
@@ -123,6 +148,15 @@
 				E3EE92111C3BEC6400B19B59 /* Info.plist */,
 			);
 			path = ShrangUITests;
+			sourceTree = "<group>";
+		};
+		E3EE921D1C3BEDD700B19B59 /* Shrang */ = {
+			isa = PBXGroup;
+			children = (
+				E3EE921E1C3BEDE800B19B59 /* Shrang.swift */,
+				E37F16A91C3C043400EC3DB6 /* Viewable.swift */,
+			);
+			path = Shrang;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3EE91FA1C3BEC6400B19B59 /* LaunchScreen.storyboard in Resources */,
+				E37F16B41C3C088100EC3DB6 /* NoAutoView.xib in Resources */,
+				E37F16B01C3C05C900EC3DB6 /* CustomView.xib in Resources */,
 				E3EE91F71C3BEC6400B19B59 /* Assets.xcassets in Resources */,
 				E3EE91F51C3BEC6400B19B59 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37F16AE1C3C052700EC3DB6 /* CustomView.swift in Sources */,
+				E37F16AA1C3C043400EC3DB6 /* Viewable.swift in Sources */,
+				E37F16B21C3C087100EC3DB6 /* NoAutoView.swift in Sources */,
 				E3EE91F21C3BEC6400B19B59 /* ViewController.swift in Sources */,
+				E3EE921F1C3BEDE800B19B59 /* Shrang.swift in Sources */,
 				E3EE91F01C3BEC6400B19B59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +522,7 @@
 				E3EE92161C3BEC6400B19B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EE92171C3BEC6400B19B59 /* Build configuration list for PBXNativeTarget "ShrangTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +531,7 @@
 				E3EE92191C3BEC6400B19B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EE921A1C3BEC6400B19B59 /* Build configuration list for PBXNativeTarget "ShrangUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +540,7 @@
 				E3EE921C1C3BEC6400B19B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
