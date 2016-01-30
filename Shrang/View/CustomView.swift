@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class CustomView: Viewable {
+class CustomView: Shrang {
 
     @IBOutlet weak var botTitleLabel: UILabel!
     @IBOutlet weak var topTitleLabel: UILabel!

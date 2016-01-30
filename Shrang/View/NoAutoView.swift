@@ -9,6 +9,6 @@
 import UIKit
 
 @IBDesignable
-class NoAutoView: Viewable {
+class NoAutoView: Shrang {
     
 }
