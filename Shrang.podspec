@@ -11,9 +11,5 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/jhihguan/Shrang.git", :tag => "#{s.version}" }
   s.platform      = :ios
   s.ios.deployment_target = "8.0"
-  s.default_subspec = "Shrang"
-
-  s.subspec "Shrang" do |cs|
-    cs.source_files = "Shrang/Shrang/*.swift"
-  end
+  s.source_files = 'Shrang/Shrang/*.{swift}'
 end
