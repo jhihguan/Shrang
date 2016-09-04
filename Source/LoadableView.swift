@@ -22,6 +22,6 @@ public class LoadableView: UIView, Viewable {
         self.initSetup()
     }
     
-    internal func initSetup() {}
+    public func initSetup() {}
 
 }
