@@ -9,6 +9,9 @@
 import UIKit
 
 @IBDesignable
-class NoAutoView: Shrang {
+class NoAutoView: LoadableView {
     
+    override func initSetup() {
+        print("override")
+    }
 }

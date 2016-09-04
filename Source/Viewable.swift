@@ -29,11 +29,11 @@ public extension Viewable where Self: UIView {
     
     func xibSetup() {
         // for IBDesingable usage
-        #if !TARGET_INTERFACE_BUILDER
-            let bundle = NSBundle.mainBundle()
+        #if TARGET_INTERFACE_BUILDER
+            let bundle = NSBundle.init(forClass: self.dynamicType)
         #else
             // xib error if not added this line
-            let bundle = NSBundle.init(forClass: self.dynamicType)
+            let bundle = NSBundle.mainBundle()
         #endif
         let nib = UINib(nibName: self.viewName(), bundle: bundle)
         if let view = nib.instantiateWithOwner(self, options: nil).first as? UIView {

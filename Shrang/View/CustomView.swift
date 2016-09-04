@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class CustomView: Shrang {
+class CustomView: LoadableView {
 
     @IBOutlet weak var botTitleLabel: UILabel!
     @IBOutlet weak var topTitleLabel: UILabel!
@@ -32,4 +32,5 @@ class CustomView: Shrang {
             self.rightImageView.image = self.rightImage
         }
     }
+
 }
