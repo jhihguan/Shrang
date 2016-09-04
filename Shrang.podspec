@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "Shrang"
-  s.version       = "0.1.1"
+  s.version       = "0.1.2"
   s.summary       = "A library to show xib on storyboard or xib(nib) file"
   s.description   = <<-DESC
                     initialize Custom Xib of UIView and show content on storyboard or another xib.
