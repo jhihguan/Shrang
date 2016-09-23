@@ -8,7 +8,7 @@
 
 import UIKit
 
-@available(*, deprecated=0.1.1, obsoleted=0.2, message="Better naming and custom function")
+@available(*, deprecated: 0.1.1, obsoleted: 0.2, message: "Better naming and custom function")
 public class Shrang: UIView, Viewable {
     
     public required init?(coder aDecoder: NSCoder) {
