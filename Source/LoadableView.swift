@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class LoadableView: UIView, Viewable {
+open class LoadableView: UIView, Viewable {
 
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -22,6 +22,6 @@ public class LoadableView: UIView, Viewable {
         self.initSetup()
     }
     
-    public func initSetup() {}
+    open func initSetup() {}
 
 }
